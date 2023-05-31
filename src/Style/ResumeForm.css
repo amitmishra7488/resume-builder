@@ -1,0 +1,153 @@
+.resumeform-container {
+  background-color: #F2F2F7;
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+.resume-form {
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5%;
+  }
+  
+  .heading {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  label {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    text-transform: uppercase;
+  }
+  
+  .first-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: space-between;
+    gap: 5%;
+    margin-bottom: 5%;
+  }
+  
+  .field-container {
+    margin-bottom: 5%;
+  }
+  
+  .datePicker {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem 0;
+   
+       
+      
+  }
+  
+  .education-item,
+  .experience-item {
+    padding: 5%;
+    margin-bottom: 2rem;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  }
+  
+  .education-item input,
+  .education-item textarea,
+  .experience-item input,
+  .experience-item textarea {
+    margin-bottom: 5%;
+  }
+  
+  .skill-badge {
+    margin-right: 5px;
+    font-size: 14px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  
+  .close-icon {
+    vertical-align: middle;
+    margin-left: 5px;
+    color: #6C757D;
+    background-color: #fff;
+
+  }
+  
+  
+  .skills-container {
+    margin-bottom: 1rem;
+  }
+  .submit-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+    width: 100%;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  @media (max-width: 992px) {
+    .first-section {
+      grid-template-columns: 1fr;
+    }
+    .first-section {
+      margin-bottom: 15%;
+    }
+
+    .resume-form {
+        width: 80%;
+        margin: auto;
+        padding: 0 1rem;
+      }
+    
+    .education-item,
+    .experience-item {
+      padding: 5%;
+      margin-bottom: 2rem;
+      box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+      grid-template-columns: 1fr;
+    }
+  }
+ 
+  
+  
+  @media (max-width: 576px) {
+    .resume-form {
+      width: 100%;
+      margin: auto;
+      padding: 0 1rem;
+    }
+    .datePicker {
+        grid-template-columns: 1fr;
+      }
+      .first-section {
+        margin-bottom: 15%;
+      }
+  }
+  

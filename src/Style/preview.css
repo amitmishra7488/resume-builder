@@ -1,0 +1,112 @@
+.resume-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.welcome-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 100%;
+  padding-right: 20px;
+}
+
+.title {
+  font-weight:500; 
+  font-size: 20px;
+  color: #6C757D; 
+}
+.welcome-container > div{
+  text-align: center;
+  font-size: 1.5rem;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  margin-right:1rem ;
+}
+
+.welcome-container button {
+  padding: 5px 10px;
+  
+}
+
+.resume-card {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 600px;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.resume-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10%;
+  width: 100%;
+  background-color: #0269a4;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+.resume-header-name {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.resume-header-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.resume-header-contact p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.resume-education,
+.resume-experience,
+.resume-skills {
+  margin-top: 20px;
+}
+
+.resume-education h4,
+.resume-experience h4,
+.resume-skills h4 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.education-card,
+.experience-card {
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
+
+.education-card p,
+.experience-card p {
+  margin: 0;
+  font-size: 14px;
+  color: #333;
+}
+
+.skill-badge {
+  margin-right: 5px;
+  font-size: 14px;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #337ab7;
+  color: #fff;
+}

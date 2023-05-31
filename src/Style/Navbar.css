@@ -1,0 +1,20 @@
+.navbar {
+    padding: 10px 20px;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    margin-left: 2%;
+  }
+  
+  .nav-link {
+    margin-right: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .nav-link:hover {
+    color: #f8f9fa;
+  }
+  
